@@ -1,0 +1,338 @@
+
+@media screen and (max-width: 1800px) {
+    .status-card-inner .content h3 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .dashboard-status .status-card-inner {
+        padding: 0;
+    }
+    .status-card-inner .icon img {
+        height: 50px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .user-management .user-info {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .table-area {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .status-card-inner {
+        padding: 0 ;
+    }
+
+    .status-card-inner {
+        min-height: 150px !important;
+    }
+
+    .status-card-inner .content h3 {
+        font-size: 26px !important;
+    }
+
+    .status-card-inner .content p {
+        margin-bottom: 10px !important;
+    }
+
+    .status-card-inner .icon img {
+        height: 65px !important;
+    }
+    .card-wrapper {
+        width: 100%;
+    }
+    #pidverify {
+        z-index: 999999999;
+    }
+    .user-content-wrapper-inner {
+        background: #fff;
+    }
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .user-form::after {
+        display: none;
+    }
+    .user-management .tab-content {
+        border-left: 0;
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .profile-info-form.form-area {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .tab-content{
+        margin-left: 0;
+    }
+    .main-wrapper{
+        margin-left: 0 !important;
+    }
+    #pidverify .modal-body {
+        padding: 50px;
+    }
+    .sidebar-mobile {
+        left: -300px !important;
+    }
+
+    .mobile-content-expend {
+        margin-left: 0 !important;
+    }
+
+    .content-expend .menu-bars {
+        padding-left: 0 !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .custom-breadcrumb .pull-right {
+        float: left;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .profile-info-table ul li span {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .user-management .theme-btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .config-section .status-card .status-card-inner {
+        padding: 30px 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .user-form {
+        width: 100%;
+        max-width: 100%;
+    }
+    .user-form .right {
+        padding: 15px;
+    }
+    .profile-transaction {
+        display: block;
+    }
+    .profile-transaction li {
+        width: 100%;
+    }
+    .profile-transaction li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .btn{
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .profile-info-table ul li span:first-child {
+        flex: .8;
+    }
+    .profile-info-table ul li {
+        display: flex;
+    }
+    .profile-info-table ul li span {
+        flex-basis: 100%;
+        font-size: 14px;
+        padding: 0;
+        padding-left: 10px;
+    }
+    .profile-info-table ul li span strong {
+        word-break: break-all;
+    }
+    .table-title h3 {
+        font-size: 18px;
+    }
+    .pidverify .card-body{
+        padding: 30px 15px;
+    }
+    .id-verify-btn-group {
+        margin-top: 50px;
+        display: block;
+    }
+    .id-verify-btn-group li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .id-verify-btn-group li a {
+        width: 100%;
+    }
+    #pidverify .modal-header .close {
+        top: 30px;
+        right: 30px;
+    }
+    .top-bar-right ul li .avatar img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .top-bar-right ul li .avatar .name {
+        display: none;
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .top-bar {
+        margin-left: 0 !important;
+        padding: 20px 0 !important;
+        position: relative;
+        z-index: 9999999999;
+    }
+
+    .sidebar .logo {
+        padding: 16px 30px 30px !important;
+        position: relative;
+    }
+
+    .sidebar {
+        padding-top: 88px;
+    }
+
+    .logo-large,
+    .sidebar .logo {
+        display: none;
+    }
+
+    .logo-small,
+    .top-bar-logo-hide {
+        display: block !important;
+    }
+
+    .logo-small {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .main-wrapper {
+        padding: 50px 0 !important;
+    }
+
+    .user-chart .card-top {
+        display: block;
+    }
+    .user-chart .card-top ul {
+        margin-top: 30px;
+    }
+    .user-chart .card-top h4 {
+        font-size: 20px;
+    }
+
+    .add-user-form .add-user-btn{
+        width: 100%;
+    }
+    .user-management-nav {
+        display: block !important;
+    }
+    .user-management-nav .nav-link {
+        padding: 15px !important;
+        font-size: 16px !important;
+    }
+    .table-pagination {
+        margin-bottom: 15px !important;
+    }
+    .user-management-nav .nav-link.active::after {
+        height: 3px !important;
+        top: 100% !important;
+    }
+    /* .tab-content {
+        padding: 15px ;
+    } */
+    .header-bar {
+        display: block !important;
+    }
+    .header-bar .search .form-control {
+        width: 100% !important;
+    }
+    .table-title {
+        margin-bottom: 30px;
+    }
+    .custom-breadcrumb ul li {
+        font-size: 18px !important;
+    }
+    .custom-breadcrumb ul li:not(:last-child) {
+        margin-right: 15px !important;
+        padding-right: 8px !important;
+    }
+    .custom-breadcrumb {
+        margin-bottom: 25px !important;
+    }
+
+    .user-management table.table thead tr th, .user-management table.table tbody tr td {
+        padding: 5px ;
+        font-size: 14px !important;
+    }
+    .user-management-nav .nav-link.active {
+        background: #182346 !important;
+    }
+
+    .header-bar .wallet-transaction {
+        margin-bottom: 20px !important;
+    }
+    .wallet-transaction .nav-link {
+        font-size: 20px !important;
+        padding-left: 0 !important;
+    }
+    .profile-info{
+        padding: 15px !important;
+    }
+    label.logo {
+        width: 100%;
+    }
+    .add-custom-page{
+        padding: 0;
+    }
+    .padding-30 {
+        padding: 0;
+    }
+    .profile-info-form .card-body {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .user-form {
+        width: 100%;
+        max-width: 350px;
+    }
+    .avater-img {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 30px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .status-card-inner {
+        justify-content: center !important;
+        align-items: flex-start !important;
+        flex-direction: column;
+    }
+
+    .content {
+        order: 2;
+        margin-top: 15px;
+    }
+    .config-section .status-card .status-card-inner .content {
+        margin-top: 0;
+    }
+    
+    .dashboard-status .status-card-inner {
+        padding: 20px 0;
+    }
+    .user-management .theme-btn {
+        min-width: auto;
+    }
+    .config-section .status-card .status-card-inner .theme-btn {
+        min-width: 150px;
+    }
+}

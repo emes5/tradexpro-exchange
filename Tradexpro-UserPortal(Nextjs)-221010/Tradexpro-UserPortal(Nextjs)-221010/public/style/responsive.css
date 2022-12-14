@@ -1,0 +1,181 @@
+@media (min-width: 1300px) {
+}
+
+@media (max-width: 1600px) {
+  .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 1200px) {
+  .section {
+    overflow: hidden;
+  }
+}
+@media (max-width: 1199px) {
+  .banner-area .banner-text .banner-title h1 {
+    font-size: 42px;
+  }
+  .banner-area {
+    padding-top: 230px;
+    padding-bottom: 230px;
+  }
+  .section {
+    padding: 100px 0;
+  }
+  .main-menu ul li a .cp-user-icon {
+    margin-right: 0;
+  }
+  .cp-user-sidebar.active {
+    display: block;
+  }
+}
+@media (max-width: 1024px) {
+  .find-app-area .single-app {
+    padding: 60px 30px 60px 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .custompage-title {
+    padding-top: 180px;
+  }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .add_comment_area .form-group label {
+    min-height: 59px;
+  }
+}
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+  .header-area {
+    display: none;
+  }
+  .about-us-area .about-left {
+    position: inherit;
+    transform: translateY(0px);
+    width: 100%;
+  }
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+  .single-table .table tbody tr td {
+    padding: 3px 5px;
+  }
+  .footer-area .footer-bottom {
+    padding: 20px 0;
+  }
+  .banner-area .banner-right-img {
+    position: inherit;
+    width: 100%;
+    transform: translateY(0%);
+  }
+  .banner-area {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .integration-area .integration-info {
+    margin-top: 0;
+  }
+  .awesome-area .awesome-info {
+    margin-top: 0;
+  }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .banner-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .client-area {
+    padding: 50px 0 100px;
+  }
+  .choose-info .btn.btn-link {
+    font-size: 0.9rem;
+  }
+  .choose-info .card .card-body {
+    font-size: 14px;
+  }
+  section.faq-area {
+    padding: 100px 0;
+  }
+
+  .contact-page-area {
+    padding: 100px 0;
+  }
+  .footer-area {
+    padding-top: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .about-text h2 {
+    font-size: 25px;
+  }
+  #DataTables_Table_0 tr td {
+    white-space: nowrap;
+  }
+  #DataTables_Table_2 tr td {
+    white-space: nowrap;
+  }
+  .footer-area .footer-bottom-wrap {
+    padding: 10px 0;
+  }
+  
+  .cp-user-buy-coin-content-area table.dataTable thead tr th {
+    padding: 3px 5px;
+  }
+  .cp-user-buy-coin-content-area table.dataTable tbody tr td {
+    padding: 3px 5px !important;
+  }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  .primary-btn {
+    margin-bottom: 10px;
+  }
+  .product-area .single-tab .nav-tabs li a {
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 375px) {
+  .product-area .single-tab .nav-tabs li a {
+    padding: 10px 20px;
+  }
+  br {
+    display: none;
+  }
+  .section-title h2 {
+    font-size: 24px;
+  }
+  .integration-area .integration-info h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .awesome-area .awesome-info h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .banner-area .banner-text .banner-title h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 320px) {
+  .banner-area .banner-text .banner-title h1 {
+    font-size: 28px;
+  }
+  .single-table .table tbody tr td {
+    font-size: 16px;
+  }
+  .footer-area .footer-bottom .copyright-area p {
+    font-size: 16px;
+  }
+}
